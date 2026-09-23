@@ -1,0 +1,113 @@
+:root {
+  /* ========================================
+     PedidoFlow — Brand Tokens
+     ======================================== */
+
+  /* ---------- Brand ---------- */
+
+  --brand-950: #06261b;
+  --brand-900: #083a28;
+  --brand-800: #0d5338;
+  --brand-700: #126b46;
+  --brand-600: #16a34a;
+  --brand-500: #22c55e;
+  --brand-400: #34d399;
+  --brand-300: #6ee7b7;
+  --brand-200: #a7f3d0;
+  --brand-100: #dcfce7;
+  --brand-50: #f0fdf4;
+
+  /* ---------- Background ---------- */
+
+  --bg-page: #07110d;
+  --bg-surface: #0b1712;
+  --bg-surface-raised: #101f18;
+  --bg-surface-soft: #142820;
+
+  /* ---------- Borders ---------- */
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-default: rgba(255, 255, 255, 0.11);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* ---------- Text ---------- */
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-disabled: #64748b;
+
+  /* ---------- Semantic ---------- */
+
+  --success: #10b981;
+  --success-soft: #d1fae5;
+
+  --warning: #f59e0b;
+  --warning-soft: #fef3c7;
+
+  --danger: #ef4444;
+  --danger-soft: #fee2e2;
+
+  --info: #38bdf8;
+  --info-soft: #e0f2fe;
+
+  /* ---------- Typography ---------- */
+
+  --font-sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+  /* ---------- Radius ---------- */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+
+  /* ---------- Spacing ---------- */
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ---------- Shadows ---------- */
+
+  --shadow-sm:
+    0 1px 2px rgba(0, 0, 0, 0.22);
+
+  --shadow-md:
+    0 10px 30px rgba(0, 0, 0, 0.22);
+
+  --shadow-lg:
+    0 20px 50px rgba(0, 0, 0, 0.32);
+
+  --shadow-brand:
+    0 12px 32px rgba(34, 197, 94, 0.18);
+
+  /* ---------- Motion ---------- */
+
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --duration-fast: 160ms;
+  --duration-normal: 280ms;
+  --duration-slow: 500ms;
+
+  /* ---------- Layout ---------- */
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1440px;
+}

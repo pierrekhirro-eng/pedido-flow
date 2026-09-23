@@ -1,0 +1,49 @@
+/* ========================================
+   PedidoFlow — Motion Foundation
+   ======================================== */
+
+[data-motion="fade-up"] {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+[data-motion="fade-in"] {
+  opacity: 0;
+}
+
+[data-motion="scale-in"] {
+  opacity: 0;
+  transform: scale(0.96);
+}
+
+[data-motion="slide-right"] {
+  opacity: 0;
+  transform: translateX(-24px);
+}
+
+[data-motion="slide-left"] {
+  opacity: 0;
+  transform: translateX(24px);
+}
+
+/* ========================================
+   Estado visível
+   ======================================== */
+
+[data-motion-ready="true"] {
+  opacity: 1;
+  transform: none;
+}
+
+/* ========================================
+   Acessibilidade
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-motion] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
